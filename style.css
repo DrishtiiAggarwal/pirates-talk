@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 
 
 main{
@@ -9,10 +11,7 @@ main{
 
 body{
     margin: 0px auto;
-    font-family: 'Kalam', cursive;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'VT323', monospace;
     color: rgb(254, 254, 255);
     width: 100%;
     background-image: url('images/zoltan-tasi-HTpAIzZRHvw-unsplash.jpg');
@@ -25,6 +24,8 @@ nav{
     background-color:rgb(19, 19, 65) ;
     text-align: center;
     display: block;
+    font-family: 'Moo Lah Lah', cursive;
+    padding:0.5rem;
 }
 
 textarea{
@@ -42,15 +43,15 @@ textarea{
 }
 
 .button-link{
-    background-color: beige;
+    background-color: rgb(181, 102, 12);
     max-width: auto;
     max-height: 400px;
     padding: 1rem;
     margin: 1rem;
-    font-family:sans-serif;
+    font-family: 'VT323', monospace;
     font-size: large;
     border-radius: 3rem;
-    border-color: beige;
+    border-color:  rgb(181, 102, 12);
     font-family: 'Gochi Hand', cursive;
 }
 
@@ -63,7 +64,9 @@ textarea{
 }
 
 footer{
-    background-color: rgb(102, 45, 4);
+    background-color: rgb(19, 19, 65);
     text-align: center;
-    padding: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: large;
 }
